@@ -1,6 +1,7 @@
 import About from "./About"
 import Cart from "./Cart"
 import Clock from "./Clock"
+import Homework from "./Homework"
 import Imggallary from "./Imggallary"
 import Login from "./Login"
 import Memo from "./Memo"
@@ -13,6 +14,7 @@ function App() {
     <About />
     <Login />
     <Cart />
+    <Homework />
     <Clock />
     <Memo />
     <Transition />

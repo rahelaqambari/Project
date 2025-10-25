@@ -6,8 +6,10 @@ export default function Login (){
         <input className="h-16 w-[90vh]  border border-stone-200 rounded-2xl" placeholder="  Enter your name" />
         <input className="h-16 w-[90vh]  border border-stone-200 rounded-2xl" placeholder="Enter your email address" />
         <input className="h-16 w-[90vh]  border border-stone-200 rounded-2xl" placeholder="Enter your password" />
-        <button className="bg-green-400 py-3 rounded-sm sc px-6">Login</button>
+       <div className="w-full flex flex-col items-center justify-center">
+         <button className="bg-green-400 py-3 rounded-sm sc px-6">Login</button>
         <h1 className="font-light line-through">Forget password</h1>
+       </div>
       </div>
         </div>
     )
