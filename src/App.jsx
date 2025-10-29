@@ -2,6 +2,7 @@ import About from "./About"
 import Cantact from "./Cantact"
 import Cart from "./Cart"
 import Clock from "./Clock"
+import Form from "./Form"
 import Homework from "./Homework"
 import Imggallary from "./Imggallary"
 import Login from "./Login"
@@ -14,6 +15,7 @@ function App() {
       <Imggallary />
     <About />
     <Cantact />
+    <Form />
     <Login />
     <Cart />
     <Homework />
