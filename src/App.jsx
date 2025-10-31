@@ -7,6 +7,7 @@ import Homework from "./Homework"
 import Imggallary from "./Imggallary"
 import Login from "./Login"
 import Memo from "./Memo"
+import Portfolio from "./Portfolio"
 import Transition from "./Transition"
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Cantact />
     <Form />
     <Login />
+    <Portfolio />
     <Cart />
     <Homework />
     <Clock />

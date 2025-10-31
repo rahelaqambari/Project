@@ -14,7 +14,6 @@ function Form() {
                  <input className='border-white focus:outline-0 h-14 w-[85%] px-5 rounded-full border text-white' type="text" placeholder='Mail ID' />
                  <input className='border-white focus:outline-0 h-[50%] w-[85%] px-5 rounded-2xl border text-white flex items-start' type="text" placeholder='Additional information' />
                  <button className="bg-amber-700 text-white rounded-full py-2 px-4">Submite Qury</button>
-
       </div>
     </div>
   )
