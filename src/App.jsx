@@ -8,6 +8,7 @@ import Imggallary from "./Imggallary"
 import Login from "./Login"
 import Memo from "./Memo"
 import Portfolio from "./Portfolio"
+import Stadio from "./Stadio"
 import Transition from "./Transition"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <Form />
     <Login />
     <Portfolio />
+    <Stadio />
     <Cart />
     <Homework />
     <Clock />
