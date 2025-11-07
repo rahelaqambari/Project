@@ -14,6 +14,7 @@ export default function Homework(){
                     <h1 className="text-white text-2xl ">تا اینجا ذخیره شد متن میتونید بعدا مطالعه کنید</h1>
                 </div>
             </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore earum ipsa ullam? At modi quam expedita? Rem magni voluptate voluptatum, fugiat incidunt aliquid cum laboriosam aperiam sint voluptas dolorum molestiae.</p>
         </div>
     )
 }

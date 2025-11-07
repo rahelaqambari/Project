@@ -1,21 +1,24 @@
-import About from "./About"
-import Cantact from "./Cantact"
-import Cart from "./Cart"
-import Clock from "./Clock"
-import Form from "./Form"
-import Homework from "./Homework"
+// import About from "./About"
+// import Cantact from "./Cantact"
+// import Cart from "./Cart"
+// import Clock from "./Clock"
+// import Form from "./Form"
+// import Homework from "./Homework"
 import Imggallary from "./Imggallary"
-import Login from "./Login"
-import Memo from "./Memo"
-import Portfolio from "./Portfolio"
-import Stadio from "./Stadio"
-import Transition from "./Transition"
+// import Login from "./Login"
+// import Memo from "./Memo"
+// import Portfolio from "./Portfolio"
+// import Stadio from "./Stadio"
+// import Transition from "./Transition"
+
+import Footer from "./Footer"
 
 function App() {
   return (
     <div>
       <Imggallary />
-    <About />
+       <Footer />
+    {/* <About />
     <Cantact />
     <Form />
     <Login />
@@ -25,7 +28,7 @@ function App() {
     <Homework />
     <Clock />
     <Memo />
-    <Transition />
+    <Transition /> */}
     </div> 
   )
 }
