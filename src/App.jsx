@@ -12,12 +12,15 @@ import Imggallary from "./Imggallary"
 // import Transition from "./Transition"
 
 import Footer from "./Footer"
+import Box from "./Box"
 
 function App() {
   return (
     <div>
       <Imggallary />
+      <Box />
        <Footer />
+       
     {/* <About />
     <Cantact />
     <Form />
