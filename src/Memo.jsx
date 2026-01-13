@@ -14,13 +14,11 @@ export default function Memo(){
     return(
          <div className="h-screen w-full items-center justify-center flex-col flex" style={dark?
             {
-                backgroundColor:"black",
                 color:"white", 
               
 
             }:
             {
-                backgroundColor:"white",
                 color:"black",
              
               
