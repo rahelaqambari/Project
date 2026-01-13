@@ -11,15 +11,18 @@
 // import Stadio from "./Stadio"
 // import Transition from "./Transition"
 
+import State from "./State"
+
 // import Footer from "./Footer"
 // import Box from "./Box"
-import Ref from "./Ref"
+// import Ref from "./Ref"
 
 function App() {
   return (
     <div>
       {/* <Imggallary /> */}
-      <Ref />
+      {/* <Ref /> */}
+      <State />
       {/* <Box />
        <Footer />
        
