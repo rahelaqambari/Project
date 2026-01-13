@@ -10,19 +10,20 @@
 // import Portfolio from "./Portfolio"
 // import Stadio from "./Stadio"
 // import Transition from "./Transition"
-
-import State from "./State"
-
+// import State from "./State"
 // import Footer from "./Footer"
 // import Box from "./Box"
 // import Ref from "./Ref"
 
+import Sample from "./Sample"
+
 function App() {
   return (
     <div>
+      <Sample />
       {/* <Imggallary /> */}
       {/* <Ref /> */}
-      <State />
+      {/* <State /> */}
       {/* <Box />
        <Footer />
        

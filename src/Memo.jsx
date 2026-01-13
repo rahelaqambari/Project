@@ -6,7 +6,7 @@ export default function Memo(){
     const [double ,setDouble] =useState (0);
     function handleclick (e){
         setnumber(parseInt(e.target.value));
-        for (let i = 0;i<20000000; i++){}
+        for (let i = 0;i<200; i++){}
         setDouble(number * 2);
 
     }
