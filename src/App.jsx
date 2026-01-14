@@ -15,16 +15,19 @@
 // import Box from "./Box"
 // import Ref from "./Ref"
 
-import Sample from "./Sample"
+import Sample2 from "./sample2"
+
+// import Sample from "./Sample"
 
 function App() {
   return (
     <div>
-      <div className="w-full bg-gray-500 flex text-whit items-center justify-center gap-8 p-12">
+      {/* <div className="w-full bg-gray-500 flex text-whit items-center justify-center gap-8 p-12">
         <h1 className="text-3xl font-bold text-white hover:underline">Home</h1>
         <h1 className="text-3xl font-bold text-white hover:underline">About</h1>
-      </div>
-      <Sample />
+      </div> */}
+      <Sample2 />
+      {/* <Sample /> */}
       {/* <Imggallary /> */}
       {/* <Ref /> */}
       {/* <State /> */}
