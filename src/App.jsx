@@ -20,6 +20,9 @@ import Sample from "./Sample"
 function App() {
   return (
     <div>
+      <div className="w-full bg-gray-500 text-whit items-center justify-center">
+        <h1 className="text-3xl font-bold"></h1>
+      </div>
       <Sample />
       {/* <Imggallary /> */}
       {/* <Ref /> */}
