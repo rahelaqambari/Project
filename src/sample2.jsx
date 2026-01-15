@@ -1,7 +1,7 @@
 function Sample2() {
   return (
-    <div className="w-full min-h-screen bg-linear-150 from-gray-100 to-gray-600 flex flex-col items-center ">
-        <div className="p-12 bg-white w-7/12 mt-12 rounded-2xl border-2">
+    <div className="w-full h-fit bg-linear-150 from-gray-100 to-gray-600 p-8 flex flex-col items-center p-">
+        <div className="p-12 bg-white w-7/12 rounded-2xl border-2">
         <h1 className="text-3xl font-bold">Learning Prisama</h1>
         <p className="text-right font-medium">{new Date().toLocaleString()}</p>
         </div>
@@ -11,6 +11,10 @@ function Sample2() {
         </div>
         <div className="p-12 bg-white w-7/12 mt-12 rounded-2xl border-2">
         <h1 className="text-3xl font-bold">Cheaking Emails</h1>
+        <p className="text-right font-medium">{new Date().toLocaleString()}</p>
+        </div>
+        <div className="p-12 bg-white w-7/12 mt-12 rounded-2xl border-2">
+        <h1 className="text-3xl font-bold">Washing the dishes</h1>
         <p className="text-right font-medium">{new Date().toLocaleString()}</p>
         </div>
     </div>

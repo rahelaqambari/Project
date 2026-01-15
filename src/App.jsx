@@ -15,6 +15,7 @@
 // import Box from "./Box"
 // import Ref from "./Ref"
 
+import Footer2 from "./Footer2"
 import Header from "./Header"
 import Sample2 from "./sample2"
 
@@ -25,6 +26,7 @@ function App() {
     <div>
      <Header />
       <Sample2 />
+      <Footer2 />
       {/* <Sample /> */}
       {/* <Imggallary /> */}
       {/* <Ref /> */}
