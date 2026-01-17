@@ -15,19 +15,19 @@
 // import Box from "./Box"
 // import Ref from "./Ref"
 
-import Footer2 from "./Footer2"
-import Header from "./Header"
-import Sample2 from "./sample2"
+// import Footer2 from "./Footer2"
+// import Header from "./Header"
+// import Sample2 from "./sample2"
 
-// import Sample from "./Sample"
+import Sample from "./Sample"
 
 function App() {
   return (
     <div>
-     <Header />
-      <Sample2 />
-      <Footer2 />
-      {/* <Sample /> */}
+     {/* <Header /> */}
+      {/* <Sample2 /> */}
+      {/* <Footer2 /> */}
+      <Sample />
       {/* <Imggallary /> */}
       {/* <Ref /> */}
       {/* <State /> */}
