@@ -11,7 +11,7 @@
 // import Stadio from "./Stadio"
 // import Transition from "./Transition"
 // import State from "./State"
-// import Footer from "./Footer"
+import Footer from "./Footer"
 // import Box from "./Box"
 // import Ref from "./Ref"
 
@@ -19,22 +19,22 @@
 // import Header from "./Header"
 // import Sample2 from "./sample2"
 
-import Sample from "./Sample"
+// import Sample from "./Sample"
 
 function App() {
   return (
     <div>
-     {/* <Header /> */}
-      {/* <Sample2 /> */}
+     {/* <Header />
+      <Sample2 /> */}
       {/* <Footer2 /> */}
-      <Sample />
+      {/* <Sample /> */}
       {/* <Imggallary /> */}
       {/* <Ref /> */}
       {/* <State /> */}
-      {/* <Box />
+      {/* <Box /> */}
        <Footer />
        
-    <About />
+    {/* <About />
     <Cantact />
     <Form />
     <Login />
@@ -44,7 +44,7 @@ function App() {
     <Homework />
     <Clock />
     <Memo />
-    <Transition /> */}
+    <Transition />  */}
     </div> 
   )
 }
