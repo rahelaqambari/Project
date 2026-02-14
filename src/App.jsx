@@ -11,7 +11,8 @@
 // import Stadio from "./Stadio"
 // import Transition from "./Transition"
 // import State from "./State"
-import Footer from "./Footer"
+import Example from "./example"
+// import Footer from "./Footer"
 // import Box from "./Box"
 // import Ref from "./Ref"
 
@@ -32,8 +33,8 @@ function App() {
       {/* <Ref /> */}
       {/* <State /> */}
       {/* <Box /> */}
-       <Footer />
-       
+       {/* <Footer /> */}
+       <Example />
     {/* <About />
     <Cantact />
     <Form />
