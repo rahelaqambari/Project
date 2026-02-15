@@ -9,9 +9,10 @@ export default function Clock (){
     },[]);
     return(
         <div className="h-48 w-full flex items-center justify-center">
-            <div className="bg-orange-400 shadow-2xs shadow-orange-900 py-4 px-5 rounded-md">
+            <div className="bg-orange-400 shadow-2xs shadow-orange-900 py-4 px-5 rounded-md flex flex-col items-center justify-center">
+                <p>Doing Homework</p>
                 <h1 className="text-3xl">{Clock}</h1>
-                <h1>{ Date()}</h1>
+                <h1 className="text-gray-600 p-4">{ Date()}</h1>
             </div>
         </div>
     )
