@@ -1,7 +1,7 @@
 // import About from "./About"
 // import Cantact from "./Cantact"
 // import Cart from "./Cart"
-// import Clock from "./Clock"
+import Clock from "./Clock"
 // import Form from "./Form"
 // import Homework from "./Homework"
 // import Imggallary from "./Imggallary"
@@ -11,7 +11,7 @@
 // import Stadio from "./Stadio"
 // import Transition from "./Transition"
 // import State from "./State"
-import Example from "./example"
+// import Example from "./example"
 // import Footer from "./Footer"
 // import Box from "./Box"
 // import Ref from "./Ref"
@@ -34,7 +34,7 @@ function App() {
       {/* <State /> */}
       {/* <Box /> */}
        {/* <Footer /> */}
-       <Example />
+       {/* <Example /> */}
     {/* <About />
     <Cantact />
     <Form />
@@ -42,10 +42,10 @@ function App() {
     <Portfolio />
     <Stadio />
     <Cart />
-    <Homework />
+    <Homework /> */}
     <Clock />
-    <Memo />
-    <Transition />  */}
+    {/* <Memo />
+    <Transition />   */}
     </div> 
   )
 }
