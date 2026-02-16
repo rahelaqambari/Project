@@ -8,10 +8,22 @@ export default function Clock (){
         return ()=> clearInterval(timer)
     },[]);
     return(
-        <div className="h-48 w-full flex items-center justify-center">
+        <div className="h-fit mt-5 w-full flex items-center justif-center flex-col gap-4">
             <div className="bg-orange-400 shadow-2xs shadow-orange-900 py-4 px-5 rounded-md flex flex-col">
                 <p className="text-3xl text-white">Doing Homework</p>
-                <div>
+                <div className="flex items-end justify-end text-white/40">
+                    <h1 className="">{Clock}</h1>
+               </div>
+            </div>
+            <div className="bg-orange-400 shadow-2xs shadow-orange-900 py-4 px-5 rounded-md flex flex-col">
+                <p className="text-3xl text-white">Doing Homework</p>
+                <div className="flex items-end justify-end text-white/40">
+                    <h1 className="">{Clock}</h1>
+               </div>
+            </div>
+            <div className="bg-orange-400 shadow-2xs shadow-orange-900 py-4 px-5 rounded-md flex flex-col">
+                <p className="text-3xl text-white">Doing Homework</p>
+                <div className="flex items-end justify-end text-white/40">
                     <h1 className="">{Clock}</h1>
                </div>
             </div>
