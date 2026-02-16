@@ -16,13 +16,13 @@ export default function Clock (){
                </div>
             </div>
             <div className="bg-orange-400 shadow-2xs shadow-orange-900 py-4 px-5 rounded-md flex flex-col">
-                <p className="text-3xl text-white">Doing Homework</p>
+                <p className="text-3xl text-white">Cheacking Emails</p>
                 <div className="flex items-end justify-end text-white/40">
                     <h1 className="">{Clock}</h1>
                </div>
             </div>
             <div className="bg-orange-400 shadow-2xs shadow-orange-900 py-4 px-5 rounded-md flex flex-col">
-                <p className="text-3xl text-white">Doing Homework</p>
+                <p className="text-3xl text-white">Washing The Deishes</p>
                 <div className="flex items-end justify-end text-white/40">
                     <h1 className="">{Clock}</h1>
                </div>
