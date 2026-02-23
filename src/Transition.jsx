@@ -19,9 +19,9 @@ export default function Transition (){
     return(
         <div className="h-screen w-full  text-center mt-4">
             <h1>Write Something</h1>
-           <div className="flex flex-col w-7/12 items-center justify-center">
+           <div className="flex flex-col p-4 items-center justify-center">
              <input className="border py-2 px-6 rounded-md focus:outline-0 " type="text" value={value} onChange={(e)=> handleClick(e)} />
-            { loding?" Loading .. ":list.map((li ,index)=>(
+            { loding?" Loading...":list.map((li ,index)=>(
                 <div key ={index}>{li}</div>
             ))}
            </div>
