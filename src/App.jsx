@@ -9,12 +9,14 @@
 // import Memo from "./Memo"
 // import Portfolio from "./Portfolio"
 // import Stadio from "./Stadio"
-import Transition from "./Transition"
+// import Transition from "./Transition"
 // import State from "./State"
 // import Example from "./example"
 // import Footer from "./Footer"
 // import Box from "./Box"
 // import Ref from "./Ref"
+
+import Addpro from "./addpro"
 
 // import Footer2 from "./Footer2"
 // import Header from "./Header"
@@ -25,6 +27,7 @@ import Transition from "./Transition"
 function App() {
   return (
     <div>
+      <Addpro />
      {/* <Header />
       <Sample2 /> */}
       {/* <Footer2 /> */}
@@ -45,7 +48,7 @@ function App() {
     <Homework /> */}
     {/* <Clock /> */}
       {/* <Memo /> */}
-      <Transition />   
+      {/* <Transition />    */}
     </div> 
   )
 }
