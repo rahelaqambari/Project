@@ -16,7 +16,9 @@
 // import Box from "./Box"
 // import Ref from "./Ref"
 
-import Addpro from "./addpro"
+import Form3 from "./form3"
+
+// import Addpro from "./addpro"
 
 // import Footer2 from "./Footer2"
 // import Header from "./Header"
@@ -27,7 +29,8 @@ import Addpro from "./addpro"
 function App() {
   return (
     <div>
-      <Addpro />
+      <Form3 />
+      {/* <Addpro /> */}
      {/* <Header />
       <Sample2 /> */}
       {/* <Footer2 /> */}
