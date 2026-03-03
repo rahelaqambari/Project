@@ -12,7 +12,7 @@ export default function Form3(){
         <input className=" border foucuse:outline-0 py-2 rounded-sm" type="text" placeholder="Product stock" />
       </div>
       <div className="grid gap-1 grid-cols-2">
-        <select name="category" id="">
+        <select className=" border foucuse:outline-0 py-2 rounded-sm" name="category" id="">
         </select>
         
       </div>
@@ -25,7 +25,7 @@ export default function Form3(){
           </div>
         </div>
         <div>
-          <textarea className="w-full h-full resize-none" name="description" id=""></textarea>
+          <textarea className="w-full h-full resize-none border foucuse:outline-0 py-2 rounded-sm" name="description" id=""></textarea>
         </div>
       </div>
       <div>
