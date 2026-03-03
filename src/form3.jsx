@@ -2,7 +2,7 @@ export default function Form3(){
     return(
       <div className="w-full h-screen flex flex-col items-center justify-center gap-3">
         <h1 className="text-3xl font-bold">ADD NEW PRODUCT</h1>
-         <form action="" className="flex flex-col gap-6 w-9/12 bg-stone-100">
+         <form action="" className="flex flex-col gap-6 w-9/12 bg-stone-100 p-6 rounded-md">
       <div className="grid gap-1 grid-cols-2">
         <input className=" border foucuse:outline-0 py-2 rounded-sm" type="text" placeholder="Product Name" />
         <input className=" border foucuse:outline-0 py-2 rounded-sm" type="text" placeholder="Product slug" />
@@ -31,8 +31,8 @@ export default function Form3(){
           <textarea className="w-full h-full resize-none border foucuse:outline-0 py-2 rounded-sm" name="description" id=""></textarea>
         </div>
       </div>
-      <div>
-<button className="border border-gray-400 py-2 px-6 text-center">
+      <div className="flex items-center justify-center">
+<button className="border border-gray-400 py-2 px-6 text-center rounded-sm">
           Save
           </button>
       
