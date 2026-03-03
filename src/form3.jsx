@@ -14,14 +14,17 @@ export default function Form3(){
       <div className="grid gap-1 grid-cols-2">
         <select className=" border foucuse:outline-0 py-2 rounded-sm" name="category" id="">
         </select>
+              <select className=" border foucuse:outline-0 py-2 rounded-sm" name="category" id="">
+        </select>
+        
         
       </div>
       <div className="grid grid-cols-2 gap-1">
         <div className="w-full flex flex-col gap-2">
           <input className=" border foucuse:outline-0 py-2 rounded-sm" type="text" name="" id="" placeholder="Product brand"  />
           <div className="flex justify-between gap-2 flex-wrap">
-            <input className=" border foucuse:outline-0 py-2 rounded-sm" type="file" accept="image/*" />
-            <input className=" border foucuse:outline-0 py-2 rounded-sm" type="file" accept="image/*" />
+            <input className=" border foucuse:outline-0 py-2 rounded-sm w-full" type="file" accept="image/*" />
+            <input className=" border foucuse:outline-0 py-2 rounded-sm w-full" type="file" accept="image/*" />
           </div>
         </div>
         <div>
