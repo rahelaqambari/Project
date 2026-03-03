@@ -1,5 +1,7 @@
 export default function Form3(){
     return(
+      <div className="w-full h-screen items-center">
+        <h1>ADD NEW PRODUCT</h1>
          <form action="" className="flex flex-col gap-2">
       <div className="grid gap-1 grid-cols-2">
         <input type="text" placeholder="Product Name" />
@@ -33,6 +35,6 @@ export default function Form3(){
       
       </div>
     </form>
-
+</div>
     );
 }
