@@ -1,4 +1,5 @@
 export default function Form3(){
+  const currentYear = new Date().getFullYear();
     return(
       <div className="w-full h-screen flex flex-col items-center justify-center gap-3">
         <h1 className="text-3xl font-bold">ADD NEW PRODUCT</h1>
@@ -39,6 +40,11 @@ export default function Form3(){
       
       </div>
     </form>
+    <footer className="flex-center border-t">
+      <div className="p-5">
+        {currentYear} | ZARYAB Online Shopping
+      </div>
+    </footer>
 </div>
     );
 }
