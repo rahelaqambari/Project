@@ -40,9 +40,9 @@ export default function Form3(){
       
       </div>
     </form>
-    <footer className="flex-center border-t">
+    <footer className="flex-center border-t w-full text-center  mt-32">
       <div className="p-5">
-        {currentYear} | ZARYAB Online Shopping
+        {currentYear} | ZARYAB
       </div>
     </footer>
 </div>
