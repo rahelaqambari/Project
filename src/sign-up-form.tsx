@@ -41,7 +41,49 @@ function SignUpForm() {
             defaultValue={signUpDefaultValue.name}
           />
         </div>
-        
+        <div className="space-y-2">
+          <Label htmlFor="email">Email</Label>
+          <Input
+            type="email"
+            id="email"
+            name="email"
+            autoComplete="email"
+            defaultValue={signUpDefaultValue.email}
+          />
+        </div>
+        <div className="space-y-2">
+          <Label htmlFor="password">Password</Label>
+          <Input
+            type="password"
+            id="password"
+            name="password"
+            autoComplete="password"
+            defaultValue={signUpDefaultValue.password}
+          />
+        </div>
+        <div className="space-y-2">
+          <Label htmlFor="confirmPassword">Confirm Password</Label>
+          <Input
+            type="password"
+            id="confirmPassword"
+            name="confirmPassword"
+            autoComplete="password"
+            defaultValue={signUpDefaultValue.confirmPassword}
+          />
+        </div>
+        <div>
+          <SignUpButton />
+        </div>
+        {data && !data.success && (
+          <div className="text-center text-destructive">{data.message}</div>
+        )}
+      </div>
+      <div className="text-sm text-center text-foreground-muted">
+        Already have an account?{" "}
+        <Link href="/sign-in" className="link">
+          Sign In
+        </Link>
+      </div>
     </form>
   );
 }
