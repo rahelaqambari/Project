@@ -2,16 +2,16 @@ import React from 'react'
 
 function Testing() {
   return (
-    <div className='h-screen w-full flex items-center justify-center'>
+    <div className='h-screen w-full flex items-center justify-center gap-4'>
         <h1>Rajester Form</h1>
       <form action="">
-        <label>Name</label>
-        <input type="text" />
-        <label>Last Name</label>
-        <input type="text" />
-        <label>Phon Number</label>
-        <input type="text" />
-        <input type="submit" />
+        <label className='py-2px-4 text-xl font-bold'>Name</label>
+        <input className='border outline:0 rounded-md p-4' type="text" />
+        <label className='py-2px-4 text-xl font-bold'>Last Name</label>
+        <input className='border outline:0 rounded-md p-4' type="text" />
+        <label className='py-2px-4 text-xl font-bold'>Phon Number</label>
+        <input className='border outline:0 rounded-md p-4' type="text" />
+        <input className='border outline:0 rounded-md p-4 bg-gray-600' type="submit" />
       </form>
     </div>
   )
