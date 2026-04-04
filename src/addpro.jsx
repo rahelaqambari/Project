@@ -8,7 +8,8 @@ export default function Addpro(){
             </div>
             <div className="col-span-2">
                 <form action="">
-                    <input className="p-4 border rounded-md outline-0" type="text" placeholder="Enter Your Email" />
+                    <input className="p-4 border rounded-md outline-0" type="text" placeholder="Enter The product name" />
+                    <button className="py-3 px-5 bg-green-600 rounded-md text-white">Add</button>
                 </form>
             </div>
             </div>
