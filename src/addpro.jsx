@@ -7,7 +7,9 @@ export default function Addpro(){
                 <img className="relative" src="/img/157073039.jpg" alt="" />
             </div>
             <div className="col-span-2">
-                <form action=""></form>
+                <form action="">
+                    <input className="p-4 border rounded-md outline-0" type="text" placeholder="Enter Your Email" />
+                </form>
             </div>
             </div>
         </div>
