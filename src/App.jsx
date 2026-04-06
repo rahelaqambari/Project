@@ -16,7 +16,8 @@
 // import Box from "./Box"
 // import Ref from "./Ref"
 
-import Form3 from "./form3"
+// import Form3 from "./form3"
+import Dashboard from "./newfile"
 
 // import Addpro from "./addpro"
 
@@ -29,7 +30,7 @@ import Form3 from "./form3"
 function App() {
   return (
     <div>
-      <Form3 />
+      {/* <Form3 /> */}
       {/* <Addpro /> */}
      {/* <Header />
       <Sample2 /> */}
@@ -52,6 +53,7 @@ function App() {
     {/* <Clock /> */}
       {/* <Memo /> */}
       {/* <Transition />    */}
+      <Dashboard />
     </div> 
   )
 }
