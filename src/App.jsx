@@ -12,16 +12,16 @@
 // import Transition from "./Transition"
 // import State from "./State"
 // import Example from "./example"
-// import Footer from "./Footer"
+import Footer from "./Footer"
 // import Box from "./Box"
 // import Ref from "./Ref"
 
 // import Form3 from "./form3"
-import Dashboard from "./newfile"
+// import Dashboard from "./newfile"
 
 // import Addpro from "./addpro"
 
-// import Footer2 from "./Footer2"
+import Footer2 from "./Footer2"
 // import Header from "./Header"
 // import Sample2 from "./sample2"
 
@@ -34,13 +34,13 @@ function App() {
       {/* <Addpro /> */}
      {/* <Header />
       <Sample2 /> */}
-      {/* <Footer2 /> */}
+      <Footer2 />
       {/* <Sample /> */}
       {/* <Imggallary /> */}
       {/* <Ref /> */}
       {/* <State /> */}
       {/* <Box /> */}
-       {/* <Footer /> */}
+       <Footer />
        {/* <Example /> */}
     {/* <About />
     <Cantact />
@@ -53,7 +53,7 @@ function App() {
     {/* <Clock /> */}
       {/* <Memo /> */}
       {/* <Transition />    */}
-      <Dashboard />
+      {/* <Dashboard /> */}
     </div> 
   )
 }
