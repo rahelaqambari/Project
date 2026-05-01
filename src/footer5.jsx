@@ -1,4 +1,4 @@
-function Footer() {
+function Footer5() {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="flex-center border-t">
@@ -9,4 +9,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Footer5;

@@ -16,6 +16,7 @@ function Dashboard() {
         </div>
         {/* hero */}
         <div className='col-sapn-3'></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque sed suscipit excepturi cum amet repellendus iste corporis beatae nesciunt praesentium sit ea id cupiditate nisi magni, laborum dolore ad!</p>
       
     </div>
   )
