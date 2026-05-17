@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 function Test3() {
     const [paly, setplay] = useState();
   return (
-    <div className='w-full flex h-screen'>
+    <div className='w-full flex h-screen bg-gradient-to-br from-purple-800 to-pink-700 via-red-700 animate-pulse duration-300'>
         <video controls width={300}>
             <source src='app.css'/>
         </video>
