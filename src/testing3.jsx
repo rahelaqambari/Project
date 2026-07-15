@@ -8,7 +8,7 @@ function Test3() {
             <source src='app.css'/>
         </video>
         <h1>Title: motive</h1>
-        <div className='flex justify-between gap-0.5'>
+        <div className='flex justify-between gap-1 items-center'>
           <h1>Views: 34</h1>
           <h1>Rating: 10</h1>
         </div>
