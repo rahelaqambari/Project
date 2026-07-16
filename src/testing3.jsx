@@ -13,7 +13,9 @@ function Test3() {
           <h1>Rating: 10</h1>
         </div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ut? Nihil sit aut repudiandae? Laudantium, aliquam! Reiciendis consectetur odit vitae totam aperiam, doloribus facere vel amet veniam, excepturi eum perferendis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius dolorem tempora ex blanditiis quia maiores quae natus quas soluta dignissimos rerum illum fugit excepturi, maxime omnis quidem laudantium ipsa ab.</p>
       <button onClick={setplay. reting+2, views+1}>Play</button>
+
     </div>
   )
 }
