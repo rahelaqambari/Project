@@ -4,7 +4,7 @@
 // import Clock from "./Clock"
 // import Form from "./Form"
 // import Homework from "./Homework"
-import Imggallary from "./Imggallary"
+// import Imggallary from "./Imggallary"
 // import Login from "./Login"
 // import Memo from "./Memo"
 // import Portfolio from "./Portfolio"
@@ -17,13 +17,15 @@ import Imggallary from "./Imggallary"
 // import Box from "./Box"
 // import Ref from "./Ref"
 
+import Invitation from "./Invitation"
+
 // import Form3 from "./form3"
 // import Dashboard from "./newfile"
 
 // import Addpro from "./addpro"
 
-import Footer2 from "./Footer2"
-import Raheefooter from "./raheefooter"
+// import Footer2 from "./Footer2"
+// import Raheefooter from "./raheefooter"
 // import Header from "./Header"
 // import Sample2 from "./sample2"
 
@@ -36,9 +38,9 @@ function App() {
       {/* <Addpro /> */}
      {/* <Header />
       <Sample2 /> */}
-      <Footer2 />
+      {/* <Footer2 /> */}
       {/* <Sample /> */}
-      <Imggallary />
+      {/* <Imggallary /> */}
       {/* <Ref /> */}
       {/* <State /> */}
       {/* <Box /> */}
@@ -57,7 +59,8 @@ function App() {
       {/* <Transition />    */}
       {/* <Dashboard /> */}
       {/* <Footerm /> */}
-      <Raheefooter />
+      {/* <Raheefooter /> */}
+      <Invitation />
     </div> 
   )
 }
