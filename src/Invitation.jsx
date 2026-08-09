@@ -13,9 +13,11 @@ function Invitation() {
           <h1 className='text-2xl absolute top-72 left-3 font-serif'>Mr/Mrs  ___________ Join Us to Celebrith The Best and Lovely Day of the year</h1>           
           <h1 className='text-2xl absolute bottom-80 left-3 font-serif'>🗓️ 12/8/2025</h1>           
           <h1 className='text-2xl absolute bottom-72 left-3 font-serif'>Location: Qasri Saltanatiy </h1>           
-          <h1 className='text-2xl absolute bottom-64 left-3 font-serif'>You are Invited By: Ramazan</h1>           
+          <h1 className='text-2xl absolute bottom-64 left-3 font-serif'>You are Invited By: Ramazani</h1>          
         </div>
-      
+      <div className='w-8/12 border rounded-md border-collapse'>
+      <p className='p-6 text-sm font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur illum praesentium minima sed aut tempora laborum quos sit esse quibusdam reprehenderit, dolorem accusamus assumenda eaque fugit sapiente! Sint, dolorum quae.</p>
+      </div>
     </div>
   )
 }
