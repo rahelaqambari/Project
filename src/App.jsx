@@ -17,6 +17,8 @@
 // import Box from "./Box"
 // import Ref from "./Ref"
 
+import Invitation from "./Invitation"
+
 // import Form3 from "./form3"
 // import Dashboard from "./newfile"
 
@@ -58,6 +60,10 @@ function App() {
       {/* <Dashboard /> */}
       {/* <Footerm /> */}
       {/* <Raheefooter /> */}
+<<<<<<< HEAD
+=======
+      <Invitation />
+>>>>>>> 9e9f0e49d7d16b4006349a5055fb91371db99517
     </div> 
   )
 }
