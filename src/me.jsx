@@ -4,7 +4,7 @@ function Me() {
   return (
     <div className='w-full h-screen flex items-center justify-center'>
         <div className='items-center w-8/12'>
-          <h1>Web Devoloper</h1>
+          <h1 className="text-3xl font-serif text-green-800 text-center hover:text-amber-700">Web Devoloper / Flutter Devoloper</h1>
             <img src="public/img/pexels-photo-2047905.webp" alt="The computer image" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur consectetur aspernatur cum ratione officia neque eos dignissimos, minima nobis corporis ipsam dolorem! Repellendus neque aut architecto! Explicabo architecto voluptatibus totam!</p>
         </div>
