@@ -13,6 +13,7 @@ function LadingPage() {
       }}
     >
       <Image src={loader} alt="Loading... " height={150} width={150} />
+      <p className="text-sm p-6 animate-pulse duration-500">pleace wait working on it</p>
     </div>
   );
 }

@@ -12,6 +12,7 @@ function Dashboard() {
             <a className='text-2xl font-serif' href=""><span>👩‍🏫</span> Teacher</a>
             <a className='text-2xl font-serif' href=""><span>👨‍🎓</span> Student</a>
             <a className='text-2xl font-serif' href=""><span>👪</span> Parants</a>
+            <a className='text-2xl font-serif' href=""><span>🕖</span> Services</a>
            </div>
         </div>
         {/* hero */}
