@@ -93,6 +93,7 @@ function Me() {
             <img src="public/img/pexels-photo-2047905.webp" alt="The computer image" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur consectetur aspernatur cum ratione officia neque eos dignissimos, minima nobis corporis ipsam dolorem! Repellendus neque aut architecto! Explicabo architecto voluptatibus totam!</p>
         </div>
+        
     </div>
   )
 }
